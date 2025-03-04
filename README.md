@@ -15,3 +15,10 @@ Create a free MaxMind account at https://www.maxmind.com/
 Download the GeoLite2 Country database (GeoLite2-Country.mmdb)
 
 Place the database file in your project's root directory
+
+
+Important Notes:
+
+IP geolocation is not 100% accurate
+
+Consider adding trusted proxy configuration if behind a reverse proxy
