@@ -11,7 +11,7 @@ app.use((req, res, next) => {
     
     // Block if the country is Russia (RU)
     if (geo && geo.country === 'RU') {
-        return res.status(403).send('Access denied - Russian IP blocked');
+        return res.status(403).send('Access denied - Russian IP blocked - Glory to Ukraine!');
     }
     
     next();
